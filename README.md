@@ -23,13 +23,14 @@ Le jeu offre plusieurs fonctionnalités principales, que voici :
 ### 0. Global
 
 - Le jeu propose plusieurs paramètres du jeu dont il contient le choix des calculs de score, le choix des parties, le choix des actions et la création des actions et des événements.
+- Son but du jeu est de ne pas dépasser la valeur de pollution de 100 et de tomber la valeur de ressource inférieur à 0. De plus, il faut atteindre la tour 10 pour gagner.
 
 ### 1. Jeu de tour à tour (Si vous choisissez cette partie)
 
 - Le jeu a mis en place les actions et les événements par défaut
 - Chaque joueur effectue un tour où il choisit une action ou plusieurs actions parmi plusieurs proposées.
 - Le jeu gère l'événement qui se produit à chaque tour, influençant le déroulement du jeu.
-- La jeu se termine si le joueur a atteint le tour 10 ou la planète a atteint le niveau de pollution supérieur à 100 ou le niveau de ressource inférieur à 0
+- Le jeu se termine si le joueur a atteint le tour 10 ou la planète a atteint le niveau de pollution supérieur à 100 ou le niveau de ressource inférieur à 0
 
 ### 2. Actions et événements
 
@@ -288,7 +289,7 @@ Le jeu nécessite les outils suivants :
 - README : https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - GTK : https://www.gtk.org/
 
-### Images :
+### Images
 
 - spy-family-anya.gif → https://tenor.com/view/anya-spy-x-family-anya-forger-clapping-gif-11316739037330677138.
 - ressource.jpg → https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lacanja_burn.JPG/1200px-Lacanja_burn.JPG
@@ -298,6 +299,14 @@ Le jeu nécessite les outils suivants :
 - skeleton-berserk.gif → https://media.tenor.com/sJMBHgj4lXEAAAAM/berserk-berserk-skeleton.gif
 - victory.jpg → https://Mathieu-Lin.github.io
 - le reste → Captures d'écran des tests
+
+### Documentations avancées
+
+Linux :
+
+```
+doxygen Doxyfile
+```
 
 ## Auteurs
 
