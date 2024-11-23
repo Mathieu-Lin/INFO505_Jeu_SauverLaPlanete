@@ -1,0 +1,11 @@
+label {
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white; 
+    color: black; 
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 2px 5px; /* Espacement interne */
+    font-size: 14px; /* Taille de la police */
+}
+

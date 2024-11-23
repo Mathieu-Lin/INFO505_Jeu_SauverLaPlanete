@@ -1,0 +1,36 @@
+# Makefile
+
+# Nom de l'exécutable
+TARGET = main
+
+# Nom de la bibliothèque
+LIB = libElement.a
+
+# Les variables
+CC = gcc # Compilateur
+CFLAGS = -Wall -Wextra -g # Options de compilation
+
+# Liste des fichiers sources et objets
+SRC = main.c element.c planete.c jeu.c # Fichiers source
+OBJ = $(SRC:.c=.o) # Fichiers objets (on remplace .c par .o)
+
+
+# Fichier source pour la bibliothèque
+LIB_SRC = element.c
+LIB_OBJ = $(LIB_SRC:.c=.o)
+
+# Règle pour construire l'exécutable
+$(TARGET): $(OBJ) $(LIB)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJ) -L. -lElement
+
+# Règle pour créer la bibliothèque statique
+$(LIB): $(LIB_OBJ)
+	ar rcs $(LIB) $(LIB_OBJ)
+
+# Règle générique pour compiler les fichiers .c en fichiers .o
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Cible pour nettoyer les fichiers objets et l'exécutable
+clean:
+	rm -f $(OBJ) $(LIB_OBJ) $(TARGET) $(LIB)

@@ -1,0 +1,28 @@
+# Nom de l'exécutable
+TARGET = main
+
+# Compilateur
+CC = gcc
+
+# Options de compilation
+CFLAGS = -Wall -Wextra -g `pkg-config --cflags gtk+-3.0`
+LDFLAGS = `pkg-config --libs gtk+-3.0`
+
+# Fichiers source
+SRC = mainGTK.c element.c planete.c jeu.c
+
+# Fichiers objets
+OBJ = $(SRC:.c=.o)
+
+# Compilation de l'exécutable
+$(TARGET): $(OBJ)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJ) $(LDFLAGS)
+
+# Règle pour les fichiers objets
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Nettoyage
+clean:
+	rm -f $(OBJ) $(TARGET)
+
