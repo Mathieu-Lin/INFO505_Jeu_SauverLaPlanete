@@ -1,4 +1,4 @@
-#:earth_africa: INFO505_jeu_SauverLaPlanete :earth_asia:
+# :earth_africa: INFO505_jeu_SauverLaPlanete :earth_asia:
 
 ## Description :earth_americas:
 
@@ -61,14 +61,14 @@ Le jeu offre plusieurs fonctionnalités principales, que voici :
 
 ## Quelques guides pour l'installation GTK :palm_tree:
 
-### Sous Linux (Ubuntu/Debian) : ![](https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa)
+### Sous Linux (Ubuntu/Debian) :
 
 ```
 sudo apt update
 sudo apt install libgtk-3-dev
 ```
 
-### Sous Window : ![](https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png)
+### Sous Window : 
 
 Téléchargez et installez MSYS2 depuis https://www.msys2.org/.
 
@@ -92,19 +92,19 @@ brew install gtk+3
 
 Compilez le jeu à l'aide de `makefile`.
 
-#### Sous Linux :  ![](https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa)
+#### Sous Linux :  
 
 ```
 make nogtk
 ```
 
-#### Sous Windows : ![](https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png)
+#### Sous Windows : 
 
 ```
 
 ```
 
-#### Sous MacOS : ![](https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png)
+#### Sous MacOS : 
 
 ```
 
@@ -114,19 +114,19 @@ make nogtk
 
 Pour lancer le jeu, exécutez :
 
-#### Sous Linux :  ![](https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa)
+#### Sous Linux :  
 
 ```
 ./main
 ```
 
-#### Sous Windows : ![](https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png)
+#### Sous Windows : 
 
 ```
 
 ```
 
-#### Sous MacOS : ![](https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png)
+#### Sous MacOS : 
 
 ```
 
@@ -175,19 +175,19 @@ Le jeu nécessite les outils suivants :
 
 Afin d'alléger le dossier, exécutez :
 
-#### Sous Linux :  ![](https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa)
+#### Sous Linux : 
 
 ```
 make clean
 ```
 
-#### Sous Windows : ![](https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png)
+#### Sous Windows : 
 
 ```
 
 ```
 
-#### Sous MacOS : ![](https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png)
+#### Sous MacOS : 
 
 ```
 
@@ -199,19 +199,19 @@ make clean
 
 Compilez le jeu à l'aide de `makefile`.
 
-#### Sous Linux :  ![](https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa)
+#### Sous Linux :  
 
 ```
 make gtk
 ```
 
-#### Sous Windows : ![](https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png)
+#### Sous Windows : 
 
 ```
 
 ```
 
-#### Sous MacOS : ![](https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png)
+#### Sous MacOS : 
 
 ```
 
@@ -221,19 +221,19 @@ make gtk
 
 Pour lancer le jeu, exécutez :
 
-#### Sous Linux :  ![](https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa)
+#### Sous Linux : 
 
 ```
 ./main
 ```
 
-#### Sous Windows : ![](https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png)
+#### Sous Windows : 
 
 ```
 
 ```
 
-#### Sous MacOS : ![](https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png)
+#### Sous MacOS :
 
 ```
 
@@ -278,19 +278,19 @@ Le jeu nécessite les outils suivants :
 
 Afin d'alléger le dossier, exécutez :
 
-#### Sous Linux :  ![](https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa)
+#### Sous Linux :  
 
 ```
 make clean
 ```
 
-#### Sous Windows : ![](https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png)
+#### Sous Windows :
 
 ```
 
 ```
 
-#### Sous MacOS : ![](https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png)
+#### Sous MacOS : 
 
 ```
 
@@ -324,7 +324,7 @@ make clean
 
 ### Documentations avancées :chicken:
 
-Linux :  ![](https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa)
+Linux :  
 
 ```
 doxygen Doxyfile
